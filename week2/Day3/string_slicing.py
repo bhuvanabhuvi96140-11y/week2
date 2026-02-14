@@ -1,0 +1,6 @@
+string = input("Enter a string: ")
+print("Original String:", string)
+print("First 3 characters:", string[0:3])
+print("Last 3 characters:", string[-3:])
+print("Characters from index 2 to 5:", string[2:6])
+print("Reversed String:", string[::-1])
